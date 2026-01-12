@@ -103,23 +103,16 @@ AI-Budget-Tracker-Advisor
 ├── routes
 └── App.js
 ```
-
 ## BACKEND - SPRING BOOT
-
 ### Go to backend folder (update path if needed)
 - cd BudgetTracker
-
 ### Run Spring Boot application
 - mvn spring-boot:run
-
 ### Backend will run at:
 - http://localhost:8080
-
 ## FRONTEND - REACT
-
 ### Open new terminal and go to frontend folder
 - cd budget-frontend
-
 ### Install dependencies
 - npm install
 
