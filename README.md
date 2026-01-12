@@ -53,5 +53,82 @@ Built using **Spring Boot (Microservices)** for backend and **React.js** for fro
 
 ---
 
-## 📂 Project Structure
+## 📂 Project 
+```
+AI-Budget-Tracker-Advisor
+│
+├── BudgetTracker
+│ ├── BudgetTrackerApplication.java
+│ ├── config
+│ │ ├── SecurityConfig.java
+│ │ ├── JwtConfig.java
+│ │ └── CorsConfig.java
+│ │
+│ ├── Budget
+│ │ ├── controller
+│ │ ├── service
+│ │ ├── repository
+│ │ └── entity
+│ │
+│ ├── Client
+│ │ ├── controller
+│ │ ├── service
+│ │ ├── repository
+│ │ └── entity
+│ │
+│ ├── Transaction
+│ │ ├── controller
+│ │ ├── service
+│ │ ├── repository
+│ │ └── entity
+│ │
+│ ├── Analytics
+│ │ ├── controller
+│ │ ├── service
+│ │ └── dto
+│ │
+│ └── Savings
+│ ├── controller
+│ ├── service
+│ ├── repository
+│ └── entity
+│
+└── budget-frontend
+├── public
+└── src
+├── api
+├── components
+├── context
+├── pages
+├── routes
+└── App.js
+```
+# =========================
+# BACKEND - SPRING BOOT
+# =========================
 
+# Go to backend folder (update path if needed)
+cd BudgetTracker
+
+# Run Spring Boot application
+mvn spring-boot:run
+
+# Backend will run at:
+# http://localhost:8080
+
+
+# =========================
+# FRONTEND - REACT
+# =========================
+
+# Open new terminal and go to frontend folder
+cd budget-frontend
+
+# Install dependencies
+npm install
+
+# Start React app
+npm start
+
+# Frontend will run at:
+# http://localhost:3000
